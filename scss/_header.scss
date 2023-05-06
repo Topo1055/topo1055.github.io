@@ -1,0 +1,91 @@
+header{
+    height: 16vh;
+    background-color: $color-principal;
+    
+
+    h1 {
+        background-color: map-get($map-colores, color-teceario);
+        color: $color-texto;
+        margin-bottom: 0px;
+    
+    }
+
+    nav {
+    
+        text-align:$justificacion-texto;
+        background-color: rgb(41, 41, 41);
+        
+        // @include alineacion-flex(center,center);
+        
+
+        li  {
+            display: inline-block      ;
+
+            a{
+                margin: 30px ;
+                font-size: 30px;
+                text-align:$justificacion-texto;
+                color: $color-texto;
+                text-decoration: none;
+
+                &:hover {
+                    color: black;
+                }
+              
+                
+            }
+            
+        }
+        
+        
+    }
+
+}
+
+@media screen and (max-width: 504px) {
+
+
+    header{
+        height: 52vh;
+        background-color:$color-principal;
+        
+    
+        nav {
+        
+    
+            li  {
+                
+                
+    
+                a{
+                    margin: 0px 100px ;
+                    font-size: 30px;
+                    text-align:$justificacion-texto;
+                    color: $color-texto;
+                    text-decoration: none;
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    
+                    
+                }
+                
+            }
+            
+            
+        }
+    
+    }
+
+  
+ 
+    
+}
+
+ 
+
+    
+
+
+
+

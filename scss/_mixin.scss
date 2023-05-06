@@ -1,0 +1,6 @@
+@mixin alineacion-flex($justify,$text-aling) {
+    justify-content: $justify;
+    text-align: $text-align;
+}
+
+// cuando trato de usar el mixin me tira error y no me deja guardar no sabria solucionarlo

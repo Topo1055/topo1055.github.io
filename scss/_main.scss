@@ -1,0 +1,37 @@
+main {  
+    height: 70vh;
+    background-color: $color-principal;
+        
+        h2 {
+        
+        text-align:$justificacion-texto;
+        color: $color-texto;
+        }
+
+        h3 {
+            
+            text-align:$justificacion-texto;
+            color: $color-texto;
+            }
+
+        p {
+                
+                text-align:$justificacion-texto;
+                color: $color-texto;
+            }   
+}
+
+@media screen and (max-width: 504px ) {
+
+    main {  
+        height: 120vh;
+        background-color: $color-principal;
+        display: flex;
+        flex-wrap: wrap;
+            
+          
+    }
+
+    
+    
+}

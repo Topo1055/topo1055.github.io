@@ -1,0 +1,56 @@
+
+.container_formulario {
+    width:100%;
+    max-width: 1100px;
+    margin-top: 20px;
+    text-align: $justificacion-texto;
+
+        h2 {
+        margin-bottom: 15px;
+        font-size: 35px;
+        }
+
+        p {
+            margin-bottom: 30px;
+            font-size: 17px;
+            line-height: 1.6;
+            display: inline-block;
+            font-size: 17px;
+            text-decoration: none;
+            width: 100%;
+            margin-bottom: 15px;
+            color:$color-texto;   
+        }
+        
+        
+        
+        
+    }
+    .container_formulario_info form .campo, textarea {
+        width: 100%;
+        height: 25vh;
+        padding: 15px 10px;
+        font-size: 15px;
+        border: 1px solid #dbdbdb;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        outline: 0px;    
+        margin-top: 10px;
+        
+    
+    
+    }
+
+    .container_formulario_info { 
+        text-align: $justificacion-texto;
+        display: flexbox;
+    }
+
+     
+    .container_contacto {
+        text-align: $justificacion-texto;
+        
+    }
+
+
+
